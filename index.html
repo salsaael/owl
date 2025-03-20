@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Awal</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: black;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 15px;
+        }
+
+        .gallery img {
+            width: 100px;
+            height: 150px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>For my owl🤍</h1>
+        <p>Hai om, ada kado kecil buat om!</p>
+        <div class="gallery">
+            <a href="ucapan.html"><img src="foto1.jpg" alt="Foto 1"></a>
+            <a href="kenangan.html"><img src="foto2.jpg" alt="Foto 2"></a>
+            <a href="pesan.html"><img src="foto3.jpg" alt="Foto 3"></a>
+        </div>
+        <p>Klik fotonya berurutan ya! dari kiri ke kanan.</p>
+    </div>
+</body>
+</html>
